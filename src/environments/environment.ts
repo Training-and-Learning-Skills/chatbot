@@ -4,7 +4,12 @@
 
 export const environment = {
   production: false
+
+  dialogflow: {
+    angularBot: '757ffa373bd447759493cd2fca7c0b13'
+  }
 };
+
 
 /*
  * In development mode, for easier debugging, you can ignore zone related error
