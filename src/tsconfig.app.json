@@ -4,6 +4,20 @@
     "outDir": "../out-tsc/app",
     "types": []
   },
+  "include": [
+    "**/*.spec.ts",
+    "**/*.d.ts",
+    "../node_modules/api-ai-javascript/index.ts",
+    "../node_modules/api-ai-javascript/ts/ApiAiClient.ts",
+    "../node_modules/api-ai-javascript/ts/ApiAiClient.ts",
+    "../node_modules/api-ai-javascript/ts/ApiAiConstants.ts",
+    "../node_modules/api-ai-javascript/ts/Errors.ts",
+    "../node_modules/api-ai-javascript/ts/Interfaces.ts",
+    "../node_modules/api-ai-javascript/ts/**.ts",
+    "../node_modules/api-ai-javascript/ts/Request/**.ts",
+    "./main.ts",
+    "./polyfills.ts"
+  ],
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
